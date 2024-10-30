@@ -1,0 +1,275 @@
+# Copyright (C) 2012 Login Dongle
+# This file is distributed under the same license as the Login Dongle package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Login Dongle 1.4.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/login-dongle\n"
+"POT-Creation-Date: 2014-09-30 14:11:19+00:00\n"
+"PO-Revision-Date: 2014-09-30 17:47+0200\n"
+"Last-Translator: Andrea Ercolino <cappuccino.e.cornetto@gmail.com>\n"
+"Language-Team: Plugin Author <cappuccino.e.cornetto@gmail.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: LoginDongleSiteAdmin.php:34
+msgid "What did you expect?"
+msgstr "¿Qué esperabas?"
+
+#: LoginDongleSiteAdmin.php:46
+msgid "Login Dongle Settings"
+msgstr "Configuración de Login Dongle"
+
+#: LoginDongleSiteAdmin.php:59
+msgid "Nice Settings"
+msgstr "Opciones de cortesía"
+
+#: LoginDongleSiteAdmin.php:61
+msgid "Message"
+msgstr "Mensaje"
+
+#: LoginDongleSiteAdmin.php:74 LoginDongleUserAdmin.php:244
+msgid ""
+"Login Dongle makes the login for your personal use only, by means of a "
+"conventional challenge &gt;&gt; response mechanism."
+msgstr ""
+"Login Dongle convierte el login en algo que sólo tú puedes usar, mediante un "
+"mecanismo de pregunta &gt;&gt; respuesta convencional."
+
+#: LoginDongleSiteAdmin.php:85
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: LoginDongleSiteAdmin.php:114
+msgid ""
+"When possible attackers try to log into your blog without the current login "
+"dongle, \n"
+"they will see this message. Use HTML as you like."
+msgstr ""
+"Cuando alguien intente hacer login sin el debido login dongle, \n"
+"verá este mensaje. Usa HTML a discreción."
+
+#: LoginDongleSiteAdmin.php:139 LoginDongleUserAdmin.php:288
+#: LoginDongleUserAdmin.php:301
+msgid "1 to %s chars."
+msgstr "De 1 a %s caracteres."
+
+#: LoginDongleUserAdmin.php:237
+msgid "Send on next update"
+msgstr "Enviar tras guardar"
+
+#: LoginDongleUserAdmin.php:238
+msgid "Show more"
+msgstr "Mostrar más"
+
+#: LoginDongleUserAdmin.php:239
+msgid "Show less"
+msgstr "Mostrar menos"
+
+#: LoginDongleUserAdmin.php:249
+msgid ""
+"The challenge and its expected response resemble passwords, but they are "
+"fundamentally different.\n"
+"This data is supposed to have enough complexity to deter the casual user of "
+"your PC, if any. \n"
+"So feel free to use simple pairs, but such that only you can easily "
+"associate the response to the challenge, \n"
+"while others will have a harder time. E.G. color &gt;&gt; ful. \n"
+"(For your security, please do not use this example literally!)."
+msgstr ""
+"La pregunta y su respuesta correcta podrían parecer contraseñas, pero son "
+"conceptos muy diferentes. \n"
+"Estos datos deberían tener complejidad suficiente como para disuadir "
+"eventuales usuarios de tu PC, si hubiesen. \n"
+"Por lo tanto, puedes usar parejas simples, pero tales que tú seas capaz de "
+"asociar fácilmente la respuesta a la pregunta, \n"
+"mientras que para otros eso sea muy difícil. Por ejemplo, color &gt;&gt; "
+"ido. \n"
+"(Por tu seguridad, por favor no uses este mismo ejemplo!)."
+
+#: LoginDongleUserAdmin.php:258
+msgid ""
+"You yourself won't be able to log into your blog without your most current "
+"login dongle,\n"
+"unless you disable this plugin right from the file system, \n"
+"as described in the <a href=\"http://wordpress.org/extend/plugins/login-"
+"dongle/faq/\" target=\"_blank\">FAQ</a>."
+msgstr ""
+"Tú mismo no podrás hacer login en tu blog sin el login dongle actualmente en "
+"uso, \n"
+"a menos que inhabilites este plugin accediendo a los ficheros, \n"
+"tal y como se describe en las <a href=\"http://wordpress.org/extend/plugins/"
+"login-dongle/faq/\" target=\"_blank\">FAQ</a>."
+
+#: LoginDongleUserAdmin.php:265
+msgctxt "%s is \"Send on next update\""
+msgid ""
+"To be able to log into your blog using a different browser or a different "
+"system in the future,\n"
+"check the <em>%s</em> option. After saving, you'll receive the bookmarklet "
+"code by email."
+msgstr ""
+"Para poder hacer login en tu blog usando otro browser u otro aparato en el "
+"futuro,  \n"
+"marca la opción <em>%s</em>. Recibirás el código del bookmarklet en tu "
+"correo electrónico."
+
+#: LoginDongleUserAdmin.php:271
+msgid ""
+"Whenever you change the challenge or the response, after saving remember to "
+"refresh the generated\n"
+"codes wherever you use them."
+msgstr ""
+"Cada vez que cambies la pregunta o la respuesta, después de guardar recuerda "
+"actualizar todos los bookmarklets\n"
+"con los códigos que acabas de generar."
+
+#: LoginDongleUserAdmin.php:280
+msgid "Challenge"
+msgstr "Pregunta"
+
+#: LoginDongleUserAdmin.php:289
+msgid "Leave this empty to be able to log in without a login dongle."
+msgstr "Deja esto vacío para hacer login sin usar un login dongle."
+
+#: LoginDongleUserAdmin.php:293
+msgid "Response"
+msgstr "Respuesta"
+
+#: LoginDongleUserAdmin.php:302
+msgid "You'll have to remember where you put capital/non-capital letters."
+msgstr "Deberás recordar donde usaste mayúsculas y minúsculas."
+
+#: LoginDongleUserAdmin.php:310
+msgid "Generated codes"
+msgstr "Códigos generados"
+
+#: LoginDongleUserAdmin.php:315
+msgid "Raw bookmarklet"
+msgstr "Bookmarklet sin codificar"
+
+#: LoginDongleUserAdmin.php:316
+msgid "better for SmartPhones"
+msgstr "indicado para SmartPhones"
+
+#: LoginDongleUserAdmin.php:319 LoginDongleUserAdmin.php:335
+msgid ""
+"Drag and drop this <strong><a href=\"%s\" title=\"Log In\">link</a></strong> "
+"into your bookmarks bar\n"
+"or copy the following code and paste it into the URL field of a new bookmark."
+msgstr ""
+"Arrastra y suelta este <strong><a href=\"%s\" title=\"Log In\">enlace</a></"
+"strong> en la barra de marcadores\n"
+"o copia el siguiente código y pégalo en la casilla para la URL de un nuevo "
+"marcador."
+
+#: LoginDongleUserAdmin.php:331
+msgid "Encoded bookmarklet"
+msgstr "Bookmarklet codificado"
+
+#: LoginDongleUserAdmin.php:332
+msgid "better for PCs"
+msgstr "indicado para PCs"
+
+#: LoginDongleUserAdmin.php:346
+msgid "XML-RPC endpoint"
+msgstr "Terminal XML-RPC"
+
+#: LoginDongleUserAdmin.php:348
+msgid ""
+"Configure the following URL into all the third-party apps accessing your "
+"blog by means of XML-RPC\n"
+"(E.G. <a href=\"http://wordpress.org/extend/mobile/\" target=\"_blank"
+"\">mobile apps</a>, \n"
+"<a href=\"http://en.support.wordpress.com/xml-rpc/\" target=\"_blank"
+"\">offline editing tools</a>, and \n"
+"so on)."
+msgstr ""
+"Copia la siguiente URL y pégala en todas las aplicaciones de terceros que "
+"acceden a tu blog mediante XML-RPC \n"
+"(<a href=\"http://wordpress.org/extend/mobile/\" target=\"_blank"
+"\">aplicaciones móviles</a>, \n"
+"<a href=\"http://en.support.wordpress.com/xml-rpc/\" target=\"_blank"
+"\">herramientas de edición offline</a>, ...)."
+
+#: LoginDongleUserAdmin.php:395
+msgctxt "%s is a username"
+msgid "encoded version of %s's bookmarklet source (better for PCs)"
+msgstr ""
+"versión codificada del código fuente del bookmarklet de %s (indicado para "
+"PCs)"
+
+#: LoginDongleUserAdmin.php:396
+msgctxt "%s is a username"
+msgid "raw version of %s's bookmarklet source (better for SmartPhones)"
+msgstr ""
+"versión sin codificar del código fuente del bookmarklet de %s (indicado para "
+"SmartPhones)"
+
+#: LoginDongleUserAdmin.php:397
+msgctxt "%s is a username"
+msgid "XML-RPC URL for %s"
+msgstr "URL para el XML-RPC de %s"
+
+#. Plugin Name of the plugin/theme
+msgid "Login Dongle"
+msgstr "Login Dongle"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/login-dongle/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The bookmark to login nobody but you. Simple and secure."
+msgstr "El bookmarklet que permite loginarte sólo a ti. Simple y seguro."
+
+#. Author of the plugin/theme
+msgid "Andrea Ercolino"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://andowebsit.es/blog/noteslog.com/"
+msgstr ""
+
+#~ msgid "The Login Dongle plugin has been updated."
+#~ msgstr "El plugin Login Dongle ha sido actualizado."
+
+#~ msgctxt "updated plugin, %s is the new version"
+#~ msgid " updated to %s"
+#~ msgstr " ha sido actualizado a la versión %s"
+
+#~ msgid "Hide code"
+#~ msgstr "Esconder código"
+
+#~ msgid "Show help"
+#~ msgstr "Mostrar ayuda"
+
+#~ msgid "Hide help"
+#~ msgstr "Esconder ayuda"
+
+#~ msgid "Bookmarklet for loggin in"
+#~ msgstr "Bookmarklet para hacer login"
+
+#~ msgid ""
+#~ "Whenever you change the challenge or the response, after saving remember "
+#~ "to drag and drop into \n"
+#~ "your bookmarks this <strong><a href=\"%1$s\" title=\"Log In\">raw</a></"
+#~ "strong> or <strong><a href=\"%2$s\" \n"
+#~ "title=\"Log In\">encoded</a></strong> bookmarklet."
+#~ msgstr ""
+#~ "Cuando cambies la pregunta o la respuesta, tras guardar recuerda hacer "
+#~ "<em>drag and drop</em> en tus marcadores de este bookmarklet: <strong><a "
+#~ "href=\"%1$s\" title=\"Log In\">sin codificar</a></strong> o <strong><a "
+#~ "href=\"%2$s\" title=\"Log In\">codificado</a></strong>."
+
+#~ msgid "Raw source"
+#~ msgstr "Código fuente sin codificar"
+
+#~ msgid ""
+#~ "People won't be able to login without using their own bookmarklet "
+#~ "(created with this plugin)."
+#~ msgstr ""
+#~ "Nadie podrá hacer login sin usar su propio bookmarklet (creado con este "
+#~ "plugin)."
